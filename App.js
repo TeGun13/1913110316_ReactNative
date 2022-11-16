@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import Information from "./components/Information";
+import Welcome from "./components/Welcome";
 
 const App = () => {
   return (
     <View>
-      <Information />
+      {/* <Information /> */}
+
+      <Welcome></Welcome>
     </View>
   );
 };
