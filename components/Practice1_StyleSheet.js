@@ -16,7 +16,7 @@ const styles1 = StyleSheet.create({
     backgroundColor: "#61dafb",
     color: "#20232a",
     textAlign: "center",
-    fontSize: 30,
+    fontSize: 35,
     fontWeight: "bold",
   },
 });

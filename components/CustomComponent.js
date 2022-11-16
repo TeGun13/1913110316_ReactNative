@@ -4,7 +4,7 @@ import React from "react";
 const Cat = () => {
   return (
     <View>
-      <Text>I LOVE CAT</Text>
+      <Text>I LOVE CAT.</Text>
     </View>
   );
 };
