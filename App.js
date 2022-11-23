@@ -4,6 +4,9 @@ import Information from "./components/Information";
 import Welcome from "./components/Welcome";
 import Txtinput from "./components/Txtinput";
 import CustomComponent from "./components/CustomComponent";
+import Logo from "./components/Logo";
+import Lots from "./components/Lots";
+import MyCustomTextWith from "./components/MyCustomTextWith";
 
 const App = () => {
   return (
@@ -13,7 +16,11 @@ const App = () => {
       {/* <Welcome></Welcome> */}
 
       {/* <Txtinput></Txtinput> */}
-      <CustomComponent></CustomComponent>
+      {/* <CustomComponent></CustomComponent> */}
+
+      {/* <Logo></Logo> */}
+      {/* <Lots></Lots> */}
+      <MyCustomTextWith></MyCustomTextWith>
     </View>
   );
 };
