@@ -14,8 +14,7 @@ import AlertExample from "./components/AlertExample";
 import ImageWithTextInput from "./components/ImageWithTextInput";
 import ButtonExample from "./components/ButtonExample";
 import Touchable_Example from "./components/Touchable_Example";
-import TouchablePractice from "./components/TouchablePractice";
-
+import TouchablePractice from "./components/2TouchablePractice";
 const App = () => {
   return (
     <View>
