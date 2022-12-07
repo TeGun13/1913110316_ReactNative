@@ -33,7 +33,7 @@ const App = () => {
       {/* <ImageWithTextInput></ImageWithTextInput> */}
       {/* <ButtonExample></ButtonExample> */}
       {/* <Touchable_Example /> */}
-      <TouchablePractice></TouchablePractice>
+      <TouchablePractice />
     </View>
   );
 };

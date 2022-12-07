@@ -3,8 +3,7 @@ import {
   Text,
   View,
   SafeAreaView,
-  Button,
-  TouchableHighlight,
+
   TouchableOpacity,
   Image,
 } from "react-native";
@@ -16,23 +15,23 @@ const TouchablePractice = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
-        <View style={styles.buttonFacebookStyle}>
+        <TouchableOpacity style={styles.buttonFacebookStyle}>
           <Image
             source={require("../assets/facebook.png")}
             style={styles.buttonImageIconStyle}
           />
           <Separator />
           <Text style={styles.buttonTextStyle}>Login Using Facebook</Text>
-        </View>
+        </TouchableOpacity>
 
-        <View style={styles.buttonGPlusStyle}>
+        <TouchableOpacity style={styles.buttonGPlusStyle}>
           <Image
             source={require("../assets/google-plus.png")}
             style={styles.buttonImageIconStyle}
           />
           <Separator />
           <Text style={styles.buttonTextStyle}>Login Using Google Plus </Text>
-        </View>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
