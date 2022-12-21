@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -6,13 +6,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  title: {
-    fontSize: 20,
-    fontWeight: "bold",
+  textTopStyle: {
+    fontSize: 25,
+    textAlign: "center",
+    marginBottom: 16,
   },
-  warning: {
-    fontSize: 15,
-    color: "red",
+  textBottomSytel: {
+    fontSize: 16,
+    textAlign: "center",
+    color: "gray",
   },
 });
 

@@ -8,8 +8,13 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 // import HomePost from "./screens/HomePost";
 // import CreatePost from "./screens/CreatePost";
 
-import FirstPage from "./screens/FirstPage";
-import SecondPage from "./screens/SecondPage";
+// import FirstPage from "./screens/FirstPage";
+// import SecondPage from "./screens/SecondPage";
+
+import FirstPage from "./pages/FirstPage";
+import SecondPage from "./pages/SecondPage";
+import ThirdPage from "./pages/ThirdPage";
+
 // function HomeScreen({ navigation }) {
 //   return (
 //     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
@@ -55,6 +60,7 @@ const App = () => {
 
         <Stack.Screen name="FirstPage" component={FirstPage}></Stack.Screen>
         <Stack.Screen name="SecondPage" component={SecondPage}></Stack.Screen>
+        <Stack.Screen name="ThirdPage" component={ThirdPage}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
