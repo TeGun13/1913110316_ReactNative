@@ -25,20 +25,22 @@ const HomeScreen = ({ navigation }) => {
     // Use `setOptions` to update the button that we previously specified
     // Now the button includes an `onPress` handler to update the count
     navigation.setOptions({
-      headerLeft: () => (
-        <HeaderButtons HeaderButtonComponent={IoniconsHeaderButton}>
-          <Item
-            title="Menu"
-            iconName="ios-menu"
-            onPress={() => alert("เมนูคำสั่ง")}
-          />
-        </HeaderButtons>
-      ),
+      // headerLeft: () => (
+      //   <HeaderButtons HeaderButtonComponent={IoniconsHeaderButton}>
+      //     <Item
+      //       title="Menu"
+      //       iconName="ios-menu"
+
+      //       onPress={() => alert("เมนูคำสั่ง")}
+      //     />
+      //   </HeaderButtons>
+      // ),
       headerRight: () => (
         <HeaderButtons HeaderButtonComponent={IoniconsHeaderButton}>
           <Item
             title="person-add"
             iconName="person-add"
+            color="Black"
             onPress={() => alert("ลงทะเบียน")}
           />
         </HeaderButtons>
@@ -50,12 +52,12 @@ const HomeScreen = ({ navigation }) => {
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Ionicons name="home" size={24} color="#008b8b" />
       <Text>Home Screen</Text>
-      <Button
+      {/* <Button
         title="เกี่ยวกับเรา"
         onPress={() =>
           navigation.navigate("About", { email: "Reactnative@tni.ac.th" })
         }
-      />
+      /> */}
     </View>
   );
 };
