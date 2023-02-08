@@ -52,12 +52,12 @@ const HomeScreen = ({ navigation }) => {
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Ionicons name="home" size={24} color="#008b8b" />
       <Text>Home Screen</Text>
-      {/* <Button
-        title="เกี่ยวกับเรา"
+      <Button
+        title="Go to About"
         onPress={() =>
           navigation.navigate("About", { email: "Reactnative@tni.ac.th" })
         }
-      /> */}
+      />
     </View>
   );
 };

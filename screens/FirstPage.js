@@ -1,11 +1,17 @@
-import { StyleSheet, Text, View, Button, TextInput , SafeAreaView} from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Button,
+  TextInput,
+  SafeAreaView,
+} from "react-native";
 import React, { useState } from "react";
 
 const FirstPage = ({ navigation }) => {
   const [postText, setPostText] = useState("");
   return (
-    < SafeAreaView style={{flex:1}}>
-
+    <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <Text style={styles.heading}>Thai-Nichi Institute of Technology</Text>
         <Text style={styles.textStyle}>
@@ -25,10 +31,10 @@ const FirstPage = ({ navigation }) => {
         />
       </View>
 
-      <View style={{ justifyContent: "flex-end",alignItems:'center' }}>
+      <View style={{ justifyContent: "flex-end", alignItems: "center" }}>
         <Text style={{ fontSize: 10, color: "gray" }}>www.tni.ac.th</Text>
       </View>
-    </ SafeAreaView>
+    </SafeAreaView>
   );
 };
 

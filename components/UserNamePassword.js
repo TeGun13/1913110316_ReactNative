@@ -16,7 +16,7 @@ const UserNamePassword = () => {
     if (!userName.trim()) {
       alert("Please Enter Name");
       return;
-    } else if (!userEmail.trim().trim()) {
+    } else if (!userEmail.trim()) {
       alert("Please Enter Email");
       return;
     } else {
@@ -42,12 +42,7 @@ const UserNamePassword = () => {
         />
 
         <View style={{ marginTop: 10 }}>
-          <Button
-            title="SUBMIT"
-            onPress={() => {
-              chechTextInput();
-            }}
-          />
+          <Button title="SUBMIT" onPress={chechTextInput} />
         </View>
       </View>
     </SafeAreaView>

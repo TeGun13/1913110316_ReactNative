@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View, SafeAreaView, Button } from "react-native";
 import React from "react";
-import styles1 from "../components/styles";
+import styles from "../components/styles";
 
 const FirstPage = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <View style={styles1.container}>
+      <View style={styles.container}>
         <View>
-          <Text style={styles1.textTopStyle}>This is the First Page</Text>
+          <Text style={styles.textTopStyle}>This is the First Page</Text>
         </View>
 
         <Button
@@ -21,7 +21,7 @@ const FirstPage = ({ navigation }) => {
       </View>
 
       <View style={{ justifyContent: "flex-end", alignItems: "center" }}>
-        <Text style={styles1.textBottomSytel}>
+        <Text style={styles.textBottomSytel}>
           Thai-Nichi institute of Technology
         </Text>
       </View>
@@ -30,5 +30,3 @@ const FirstPage = ({ navigation }) => {
 };
 
 export default FirstPage;
-
-const styles = StyleSheet.create({});
